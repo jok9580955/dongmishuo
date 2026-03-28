@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A股董秘说 — 实时上市公司董秘发言</title>
+<meta name="description" content="实时追踪A股上市公司董秘发言,深交所互动易+上交所e互动一站搜索">
+<style>
+  :root {
+    --bg:#0a0e1a;--surface:#111827;--surface2:#1e2d45;
+    --accent:#3b82f6;--accent2:#06b6d4;--gold:#f59e0b;--pink:#ec4899;
+    --text:#e2e8f0;--muted:#64748b;--border:#1e3a5f;--radius:12px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,'PingFang SC','Noto Sans SC',sans-serif;min-height:100vh}
+  .nav{display:flex;align-items:center;padding:12px 28px;background:rgba(17,24,39,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+  .logo{font-size:18px;font-weight:800;color:var(--gold)}
+  .logo span{margin-left:6px}
+  .badge{font-size:10px;background:var(--accent);color:#fff;padding:2px 6px;border-radius:4px;margin-left:6px;vertical-align:middle}
+  .hero{text-align:center;padding:48px 24px 32px;background:radial-gradient(ellipse 80% 50% at 50% -20%,#1d3a6e 0%,transparent 70%)}
+  .hero h1{font-size:32px;font-weight:900;letter-spacing:2px}
+  .hero h1 em{color:var(--gold);font-style:normal}
+  .hero p{color:var(--muted);margin-top:8px;font-size:14px}
+  .stats-row{display:flex;justify-content:center;gap:16px;margin:24px 0}
+  .stat-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 24px;min-width:100px;text-align:center}
+  .stat-card .num{font-size:22px;font-weight:800;color:var(--accent2)}
+  .stat-card .lbl{font-size:11px;color:var(--muted);margin-top:4px}
+  .search-wrap{max-width:600px;margin:20px auto 0;display:flex;gap:8px;position:relative}
+  .search-wrap input{flex:1;padding:12px 20px;background:var(--surface);border:1.5px solid var(--border);border-radius:50px;color:var(--text);font-size:14px;outline:none}
+  .search-wrap input:focus{border-color:var(--accent)}
+  .search-wrap input::placeholder{color:var(--muted)}
+  .search-wrap button{background:var(--accent);border:none;color:#fff;padding:12px 24px;border-radius:50px;cursor:pointer;font-weight:600}
+  .section{max-width:960px;margin:0 auto;padding:0 24px 48px}
+  .section-title{font-size:18px;font-weight:700;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+  .section-title .extra{margin-left:auto;font-size:12px;color:var(--muted);font-weight:400}
+  .kw-bar{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;max-width:700px;margin:0 auto 12px;padding:0 16px}
+  .kw-tag{padding:6px 16px;border-radius:20px;font-size:13px;font-weight:500;cursor:pointer;border:1px solid var(--border);color:var(--muted);background:var(--surface);transition:all .2s;user-select:none}
+  .kw-tag:hover{border-color:var(--gold);color:var(--text)}
+  .kw-tag.active{background:var(--gold);color:#000;border-color:var(--gold);font-weight:600}
+  .kw-tag.all{border-color:var(--accent);color:var(--accent)}
+  .kw-tag.all.active{background:var(--accent);color:#fff}
+  .kw-tag.danger{border-color:rgba(239,68,68,.3)}
+  .kw-tag.danger.active{background:#ef4444;border-color:#ef4444;color:#fff}
+  .kw-tag.green{border-color:rgba(34,197,94,.3)}
+  .kw-tag.green.active{background:#22c55e;border-color:#22c55e;color:#000}
+  .kw-filter-count{font-size:12px;color:var(--muted);text-align:center;margin-bottom:12px;min-height:18px}
+  .hot-scroll{display:flex;gap:14px;overflow-x:auto;padding:4px 0 12px;scroll-snap-type:x mandatory}
+  .hot-scroll::-webkit-scrollbar{height:4px}
+  .hot-scroll::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
+  .hot-card{flex:0 0 160px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px;scroll-snap-align:start;cursor:pointer;text-decoration:none;color:var(--text);transition:border-color .2s}
+  .hot-card:hover{border-color:var(--accent)}
+  .hot-rank{font-size:11px;font-weight:700;color:var(--gold);margin-bottom:6px}
+  .hot-code{font-size:16px;font-weight:800;color:var(--accent2)}
+  .hot-name{font-size:13px;color:var(--text);margin-top:4px}
+  .hot-count{font-size:12px;color:var(--muted);margin-top:6px}
+  .hot-src{font-size:10px;margin-top:4px}
+  .source-szse{color:var(--accent2)}
+  .source-sse{color:var(--pink)}
+  .cards{display:flex;flex-direction:column;gap:14px}
+  .card{display:block;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;text-decoration:none;color:inherit;transition:border-color .15s}
+  .card:hover{border-color:var(--accent)}
+  .card-header{display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+  .stock-tag{font-weight:700;font-size:14px;color:var(--accent2)}
+  .source-tag{border-radius:6px;padding:3px 9px;font-size:11px}
+  .s-szse{background:rgba(6,182,212,.1);color:var(--accent2)}
+  .s-sse{background:rgba(236,72,153,.1);color:var(--pink)}
+  .date-tag{margin-left:auto;font-size:12px;color:var(--muted)}
+  .card-q{font-size:14px;color:var(--gold);margin-bottom:8px;line-height:1.6}
+  .card-a{font-size:14px;color:var(--text);line-height:1.8;display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .live-dot{width:8px;height:8px;background:#22c55e;border-radius:50%;display:inline-block;animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+  .empty{text-align:center;padding:50px 0;color:var(--muted)}
+  .pagination{display:flex;justify-content:center;gap:8px;margin-top:20px}
+  .pg-btn{background:var(--surface);border:1px solid var(--border);color:var(--text);padding:8px 16px;border-radius:8px;cursor:pointer;font-size:14px}
+  .pg-btn:hover{background:var(--surface2)}
+  .pg-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+  footer{text-align:center;padding:20px;color:var(--muted);font-size:12px;border-top:1px solid var(--border)}
+  @media(max-width:600px){.nav{padding:10px 14px}.hero{padding:36px 14px 20px}.hot-card{width:140px;padding:12px}.section{padding:0 14px 36px}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="logo">📊<span>董秘说</span><span class="badge">GitHub版</span></div>
+</nav>
+
+<header class="hero">
+  <h1>实时追踪 <em>A股</em> 董秘发言</h1>
+  <p>深交所互动易 · 上交所e互动 · 每15分钟自动更新</p>
+  <div class="stats-row" id="stats-row">
+    <div class="stat-card"><div class="num" id="st-total">…</div><div class="lbl">已收录问答</div></div>
+    <div class="stat-card"><div class="num" id="st-stocks">…</div><div class="lbl">覆盖股票</div></div>
+    <div class="stat-card"><div class="num" id="st-update" style="font-size:15px;padding-top:5px">…</div><div class="lbl">最近更新</div></div>
+  </div>
+  <div class="search-wrap">
+    <input id="search-input" type="text" placeholder="搜索股票代码、公司名称或关键词…" autocomplete="off">
+    <button onclick="doSearch()">搜索</button>
+  </div>
+</header>
+
+<!-- 🏷️ 热点关键词 -->
+<section class="section" style="padding-bottom:20px;">
+  <div class="section-title">🏷️ 热点关键词 <span class="extra">点击即筛</span></div>
+  <div class="kw-bar">
+    <span class="kw-tag all active" data-kw="" onclick="filterKw(this)">全部</span>
+    <span class="kw-tag green" data-kw="分红" onclick="filterKw(this)">💰 分红</span>
+    <span class="kw-tag green" data-kw="回购" onclick="filterKw(this)">🔄 回购</span>
+    <span class="kw-tag danger" data-kw="起诉" onclick="filterKw(this)">⚖️ 起诉</span>
+    <span class="kw-tag danger" data-kw="减持" onclick="filterKw(this)">📉 减持</span>
+    <span class="kw-tag danger" data-kw="退市" onclick="filterKw(this)">🚫 退市</span>
+    <span class="kw-tag" data-kw="AI" onclick="filterKw(this)">🤖 AI</span>
+    <span class="kw-tag" data-kw="芯片" onclick="filterKw(this)">💎 芯片</span>
+    <span class="kw-tag" data-kw="新能源" onclick="filterKw(this)">🔋 新能源</span>
+    <span class="kw-tag" data-kw="并购" onclick="filterKw(this)">🤝 并购</span>
+    <span class="kw-tag" data-kw="年报" onclick="filterKw(this)">📊 年报</span>
+    <span class="kw-tag" data-kw="业绩" onclick="filterKw(this)">📈 业绩</span>
+    <span class="kw-tag" data-kw="股权" onclick="filterKw(this)">🏛️ 股权</span>
+  </div>
+  <div class="kw-filter-count" id="kw-count"></div>
+</section>
+
+<!-- 🔥 热门排行 -->
+<section class="section">
+  <div class="section-title">🔥 热门互动排行 <span class="extra">按互动量排名</span></div>
+  <div class="hot-scroll" id="hot-list"></div>
+</section>
+
+<!-- 📡 最新问答 -->
+<section class="section">
+  <div class="section-title"><span class="live-dot"></span> 最新董秘发言</div>
+  <div class="cards" id="card-list"><div class="empty">加载中…</div></div>
+  <div class="pagination" id="pagination"></div>
+</section>
+
+<footer>数据来源：深交所互动易 · 上证e互动 · 每15分钟自动更新 · A股董秘说 GitHub版</footer>
+
+<script>
+let ALL_DATA = [];
+let HOT_DATA = [];
+let currentPage = 1;
+const PAGE_SIZE = 20;
+let activeKw = '';
+
+// ─── Load JSON data ───
+async function init() {
+  try {
+    const [qaRes, hotRes, stRes] = await Promise.all([
+      fetch('data/all_qa.json').then(r => r.json()),
+      fetch('data/hot.json').then(r => r.json()),
+      fetch('data/stats.json').then(r => r.json()),
+    ]);
+    ALL_DATA = qaRes;
+    HOT_DATA = hotRes;
+
+    document.getElementById('st-total').textContent = stRes.total_records;
+    document.getElementById('st-stocks').textContent = stRes.total_stocks;
+    document.getElementById('st-update').textContent = (stRes.last_update || '').slice(0, 10);
+
+    renderHot();
+    renderCards(ALL_DATA, 1);
+  } catch(e) {
+    document.getElementById('card-list').innerHTML =
+      '<div class="empty">❌ 数据加载失败，请稍后刷新页面<br><small>' + e.message + '</small></div>';
+  }
+}
+
+// ─── Hot stocks ───
+function renderHot() {
+  const el = document.getElementById('hot-list');
+  el.innerHTML = HOT_DATA.map((h, i) => {
+    const isSSE = h.source && h.source.includes('上证');
+    return `<a class="hot-card" href="stock.html?code=${h.stock_code}">
+      <div class="hot-rank">TOP ${i+1}</div>
+      <div class="hot-code">${h.stock_code}</div>
+      <div class="hot-name">${h.stock_name||h.stock_code}</div>
+      <div class="hot-count">${h.qa_count} 条互动</div>
+      <div class="hot-src ${isSSE?'source-sse':'source-szse'}">${h.source||''}</div>
+    </a>`;
+  }).join('');
+}
+
+// ─── Card rendering ───
+function renderCard(item) {
+  const isSSE = item.source && item.source.includes('上证');
+  return `<a class="card" href="stock.html?code=${item.stock_code}">
+    <div class="card-header">
+      <span class="stock-tag">${item.stock_code} ${item.stock_name||''}</span>
+      <span class="source-tag ${isSSE?'s-sse':'s-szse'}">${item.source}</span>
+      <span class="date-tag">${item.pub_date||''}</span>
+    </div>
+    <div class="card-q">问：${esc(item.question).slice(0,100)}</div>
+    <div class="card-a">${esc(item.answer)}</div>
+  </a>`;
+}
+
+function renderCards(data, page) {
+  currentPage = page;
+  const list = document.getElementById('card-list');
+  const pgEl = document.getElementById('pagination');
+  const start = (page - 1) * PAGE_SIZE;
+  const pageData = data.slice(start, start + PAGE_SIZE);
+  const totalPages = Math.ceil(data.length / PAGE_SIZE);
+
+  if (!pageData.length) {
+    list.innerHTML = '<div class="empty">未找到相关数据</div>';
+    pgEl.innerHTML = '';
+    return;
+  }
+
+  list.innerHTML = pageData.map(renderCard).join('');
+
+  // Pagination
+  if (totalPages > 1) {
+    let pg = '';
+    if (page > 1) pg += `<button class="pg-btn" onclick="renderCards(getFilteredData(),${page-1})">‹ 上一页</button>`;
+    for (let i = Math.max(1,page-2); i <= Math.min(totalPages,page+2); i++) {
+      pg += `<button class="pg-btn ${i===page?'active':''}" onclick="renderCards(getFilteredData(),${i})">${i}</button>`;
+    }
+    if (page < totalPages) pg += `<button class="pg-btn" onclick="renderCards(getFilteredData(),${page+1})">下一页 ›</button>`;
+    pgEl.innerHTML = pg;
+  } else {
+    pgEl.innerHTML = '';
+  }
+}
+
+// ─── Filter & Search ───
+function getFilteredData() {
+  if (!activeKw) return ALL_DATA;
+  return ALL_DATA.filter(r =>
+    (r.question && r.question.includes(activeKw)) ||
+    (r.answer && r.answer.includes(activeKw))
+  );
+}
+
+function filterKw(el) {
+  document.querySelectorAll('.kw-tag').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  activeKw = el.dataset.kw;
+  const countEl = document.getElementById('kw-count');
+  if (!activeKw) {
+    countEl.textContent = '';
+    renderCards(ALL_DATA, 1);
+  } else {
+    const filtered = getFilteredData();
+    countEl.textContent = `找到 ${filtered.length} 条关于「${activeKw}」的问答`;
+    renderCards(filtered, 1);
+  }
+}
+
+function doSearch() {
+  const v = document.getElementById('search-input').value.trim();
+  if (!v) { activeKw = ''; renderCards(ALL_DATA, 1); return; }
+  const filtered = ALL_DATA.filter(r =>
+    (r.stock_code && r.stock_code.includes(v)) ||
+    (r.stock_name && r.stock_name.includes(v)) ||
+    (r.question && r.question.includes(v)) ||
+    (r.answer && r.answer.includes(v))
+  );
+  document.getElementById('kw-count').textContent = `搜索 "${v}" — 找到 ${filtered.length} 条`;
+  document.querySelectorAll('.kw-tag').forEach(t => t.classList.remove('active'));
+  renderCards(filtered, 1);
+}
+
+document.getElementById('search-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doSearch();
+});
+
+function esc(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+init();
+</script>
+</body>
+</html>

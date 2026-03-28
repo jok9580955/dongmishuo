@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title id="page-title">董秘发言详情 — A股董秘说</title>
+<style>
+  :root{--bg:#0a0e1a;--surface:#111827;--surface2:#1e2d45;--accent:#3b82f6;--accent2:#06b6d4;--gold:#f59e0b;--pink:#ec4899;--text:#e2e8f0;--muted:#64748b;--border:#1e3a5f;--radius:12px}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,'PingFang SC',sans-serif;min-height:100vh}
+  .nav{display:flex;align-items:center;gap:14px;padding:14px 28px;background:rgba(17,24,39,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+  .back-btn{background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:6px 14px;border-radius:20px;cursor:pointer;font-size:13px;text-decoration:none}
+  .logo{font-size:18px;font-weight:700;color:var(--gold);margin-right:auto}
+  .stock-hero{padding:40px 24px 28px;background:radial-gradient(ellipse 80% 60% at 50% -10%,#1d3a6e 0%,transparent 70%);text-align:center}
+  .hero-top{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:8px}
+  .stock-hero h2{font-size:30px;font-weight:800}
+  .stock-hero .code{color:var(--accent2);margin-right:10px}
+  .meta-row{display:flex;justify-content:center;gap:12px;margin-top:12px;flex-wrap:wrap}
+  .meta-chip{background:var(--surface);border:1px solid var(--border);padding:6px 14px;border-radius:20px;font-size:13px;color:var(--muted)}
+  .meta-chip strong{color:var(--text);margin-left:4px}
+  .filter-bar{max-width:900px;margin:20px auto;padding:0 24px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .filter-bar input{flex:1;min-width:200px;padding:10px 16px;background:var(--surface);border:1.5px solid var(--border);border-radius:50px;color:var(--text);font-size:14px;outline:none}
+  .filter-bar input:focus{border-color:var(--accent)}
+  .filter-bar input::placeholder{color:var(--muted)}
+  .total-lbl{color:var(--muted);font-size:13px;margin-left:auto}
+  .list{max-width:900px;margin:0 auto;padding:0 24px 60px;display:flex;flex-direction:column;gap:14px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px}
+  .card-header{display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+  .source-tag{border-radius:6px;padding:3px 9px;font-size:11px}
+  .source-szse{background:rgba(6,182,212,.1);color:var(--accent2)}
+  .source-sse{background:rgba(236,72,153,.1);color:var(--pink)}
+  .date{margin-left:auto;color:var(--muted);font-size:12px}
+  .q-block{background:rgba(245,158,11,.07);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:12px 16px;margin-bottom:12px}
+  .q-label{font-size:11px;color:var(--gold);margin-bottom:4px;font-weight:600;letter-spacing:1px}
+  .q-text{font-size:14px;color:var(--text);line-height:1.7}
+  .a-block{padding:4px 0}
+  .a-label{font-size:11px;color:var(--accent2);margin-bottom:6px;font-weight:600;letter-spacing:1px}
+  .a-text{font-size:15px;color:var(--text);line-height:1.9;white-space:pre-wrap}
+  .link-row{margin-top:12px;display:flex;justify-content:flex-end}
+  .ext-link{color:var(--accent);font-size:12px;text-decoration:none}
+  .ext-link:hover{text-decoration:underline}
+  .empty{text-align:center;padding:50px 0;color:var(--muted)}
+  .spinner{width:24px;height:24px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:50px auto}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @media(max-width:600px){.nav{padding:10px 14px}.stock-hero{padding:28px 14px 20px}.filter-bar,.list{padding:0 12px 48px}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="back-btn">← 首页</a>
+  <span class="logo">📊 董秘说</span>
+</nav>
+
+<div class="stock-hero">
+  <div class="hero-top">
+    <h2><span class="code" id="h-code"></span><span id="h-name">加载中…</span></h2>
+  </div>
+  <div class="meta-row" id="meta-row"></div>
+</div>
+
+<div class="filter-bar">
+  <input id="kw-input" type="text" placeholder="在本股票问答中搜索关键词…">
+  <span class="total-lbl" id="total-lbl"></span>
+</div>
+
+<div class="list" id="list"><div class="spinner"></div></div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const CODE = params.get('code') || '';
+document.getElementById('h-code').textContent = CODE;
+
+const kwInput = document.getElementById('kw-input');
+let allStockData = [];
+
+async function loadData() {
+  try {
+    const res = await fetch('data/all_qa.json');
+    const allData = await res.json();
+    allStockData = allData.filter(r => r.stock_code === CODE);
+    if (allStockData.length > 0) {
+      const first = allStockData[0];
+      document.getElementById('h-name').textContent = first.stock_name || CODE;
+      document.title = `${CODE} ${first.stock_name||''} 董秘发言 — A股董秘说`;
+      document.getElementById('meta-row').innerHTML = `
+        <div class="meta-chip">数据来源 <strong>${first.source}</strong></div>
+        <div class="meta-chip">问答数量 <strong>${allStockData.length}</strong></div>
+      `;
+    }
+    render(allStockData);
+  } catch(e) {
+    document.getElementById('list').innerHTML = '<div class="empty">❌ 数据加载失败</div>';
+  }
+}
+
+function render(data) {
+  const list = document.getElementById('list');
+  document.getElementById('total-lbl').textContent = `共 ${data.length} 条问答`;
+  if (!data.length) {
+    list.innerHTML = '<div class="empty">未找到相关问答数据</div>';
+    return;
+  }
+  list.innerHTML = data.map(item => {
+    const isSSE = item.source && item.source.includes('上证');
+    return `<div class="card">
+      <div class="card-header">
+        <span class="source-tag ${isSSE?'source-sse':'source-szse'}">${item.source}</span>
+        <span class="date">${item.pub_date||''}</span>
+        ${item.reply_date ? `<span class="date">回复：${item.reply_date}</span>` : ''}
+      </div>
+      <div class="q-block">
+        <div class="q-label">投资者提问</div>
+        <div class="q-text">${esc(item.question)}</div>
+      </div>
+      <div class="a-block">
+        <div class="a-label">董秘回复</div>
+        <div class="a-text">${esc(item.answer)}</div>
+      </div>
+      ${item.url ? `<div class="link-row"><a class="ext-link" href="${item.url}" target="_blank">查看原文 →</a></div>` : ''}
+    </div>`;
+  }).join('');
+}
+
+kwInput.addEventListener('input', () => {
+  const v = kwInput.value.trim();
+  if (!v) { render(allStockData); return; }
+  render(allStockData.filter(r =>
+    (r.question && r.question.includes(v)) ||
+    (r.answer && r.answer.includes(v))
+  ));
+});
+
+function esc(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+loadData();
+</script>
+</body>
+</html>
