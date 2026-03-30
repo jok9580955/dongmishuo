@@ -6,6 +6,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "300750",
+  "stock_name": "宁德时代",
+  "qa_count": 13,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "300490",
   "stock_name": "华自科技",
   "qa_count": 11,
@@ -110,12 +116,6 @@
  {
   "stock_code": "688525",
   "stock_name": "688525",
-  "qa_count": 10,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "603031",
-  "stock_name": "603031",
   "qa_count": 10,
   "source": "上证e互动"
  }
