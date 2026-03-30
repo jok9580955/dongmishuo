@@ -6,6 +6,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "300490",
+  "stock_name": "华自科技",
+  "qa_count": 11,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "601966",
   "stock_name": "601966",
   "qa_count": 10,
@@ -50,6 +56,12 @@
  {
   "stock_code": "603077",
   "stock_name": "603077",
+  "qa_count": 10,
+  "source": "上证e互动"
+ },
+ {
+  "stock_code": "688053",
+  "stock_name": "688053",
   "qa_count": 10,
   "source": "上证e互动"
  },
@@ -104,18 +116,6 @@
  {
   "stock_code": "688550",
   "stock_name": "688550",
-  "qa_count": 10,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "603456",
-  "stock_name": "603456",
-  "qa_count": 10,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "688002",
-  "stock_name": "688002",
   "qa_count": 10,
   "source": "上证e互动"
  }
