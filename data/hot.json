@@ -24,6 +24,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "300188",
+  "stock_name": "国投智能",
+  "qa_count": 13,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "300317",
   "stock_name": "珈伟新能",
   "qa_count": 13,
@@ -54,16 +60,16 @@
   "source": "上证e互动"
  },
  {
-  "stock_code": "300188",
-  "stock_name": "国投智能",
-  "qa_count": 12,
-  "source": "深交所互动易"
- },
- {
   "stock_code": "300729",
   "stock_name": "乐歌股份",
   "qa_count": 12,
   "source": "深交所互动易"
+ },
+ {
+  "stock_code": "688809",
+  "stock_name": "688809",
+  "qa_count": 11,
+  "source": "上证e互动"
  },
  {
   "stock_code": "688550",
@@ -110,12 +116,6 @@
  {
   "stock_code": "600415",
   "stock_name": "600415",
-  "qa_count": 10,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "601966",
-  "stock_name": "601966",
   "qa_count": 10,
   "source": "上证e互动"
  }
