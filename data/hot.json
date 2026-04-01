@@ -30,6 +30,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "601956",
+  "stock_name": "601956",
+  "qa_count": 14,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "000927",
   "stock_name": "中国铁物",
   "qa_count": 14,
@@ -110,12 +116,6 @@
  {
   "stock_code": "603456",
   "stock_name": "603456",
-  "qa_count": 11,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600655",
-  "stock_name": "600655",
   "qa_count": 11,
   "source": "上证e互动"
  }
