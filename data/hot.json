@@ -18,6 +18,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "605166",
+  "stock_name": "605166",
+  "qa_count": 16,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "601127",
   "stock_name": "601127",
   "qa_count": 15,
@@ -112,11 +118,5 @@
   "stock_name": "乐歌股份",
   "qa_count": 12,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "688809",
-  "stock_name": "688809",
-  "qa_count": 11,
-  "source": "上证e互动"
  }
 ]
