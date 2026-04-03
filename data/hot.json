@@ -42,6 +42,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "000768",
+  "stock_name": "中航西飞",
+  "qa_count": 19,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "601398",
   "stock_name": "工商银行",
   "qa_count": 19,
@@ -110,12 +116,6 @@
  {
   "stock_code": "601985",
   "stock_name": "601985",
-  "qa_count": 14,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600348",
-  "stock_name": "600348",
   "qa_count": 14,
   "source": "上证e互动"
  }
