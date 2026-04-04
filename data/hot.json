@@ -96,6 +96,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "601718",
+  "stock_name": "601718",
+  "qa_count": 16,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "002334",
   "stock_name": "英威腾",
   "qa_count": 16,
@@ -110,12 +116,6 @@
  {
   "stock_code": "601127",
   "stock_name": "601127",
-  "qa_count": 15,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600433",
-  "stock_name": "600433",
   "qa_count": 15,
   "source": "上证e互动"
  }
