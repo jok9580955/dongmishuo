@@ -42,6 +42,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "000661",
+  "stock_name": "长春高新",
+  "qa_count": 20,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "603062",
   "stock_name": "603062",
   "qa_count": 19,
@@ -80,12 +86,6 @@
  {
   "stock_code": "002129",
   "stock_name": "TCL中环",
-  "qa_count": 18,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "000661",
-  "stock_name": "长春高新",
   "qa_count": 18,
   "source": "深交所互动易"
  },
