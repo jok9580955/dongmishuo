@@ -72,6 +72,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "601006",
+  "stock_name": "601006",
+  "qa_count": 18,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "002129",
   "stock_name": "TCL中环",
   "qa_count": 18,
@@ -110,12 +116,6 @@
  {
   "stock_code": "600433",
   "stock_name": "600433",
-  "qa_count": 15,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600719",
-  "stock_name": "600719",
   "qa_count": 15,
   "source": "上证e互动"
  }
