@@ -24,6 +24,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "600165",
+  "stock_name": "600165",
+  "qa_count": 20,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "600850",
   "stock_name": "600850",
   "qa_count": 20,
@@ -112,11 +118,5 @@
   "stock_name": "601718",
   "qa_count": 16,
   "source": "上证e互动"
- },
- {
-  "stock_code": "002334",
-  "stock_name": "英威腾",
-  "qa_count": 16,
-  "source": "深交所互动易"
  }
 ]
