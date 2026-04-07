@@ -78,6 +78,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "688158",
+  "stock_name": "688158",
+  "qa_count": 20,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "600905",
   "stock_name": "600905",
   "qa_count": 20,
@@ -112,11 +118,5 @@
   "stock_name": "600959",
   "qa_count": 19,
   "source": "上证e互动"
- },
- {
-  "stock_code": "000768",
-  "stock_name": "中航西飞",
-  "qa_count": 19,
-  "source": "深交所互动易"
  }
 ]
