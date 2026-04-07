@@ -84,6 +84,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "600703",
+  "stock_name": "600703",
+  "qa_count": 19,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "603062",
   "stock_name": "603062",
   "qa_count": 19,
@@ -111,12 +117,6 @@
   "stock_code": "601398",
   "stock_name": "工商银行",
   "qa_count": 19,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "601966",
-  "stock_name": "601966",
-  "qa_count": 18,
   "source": "上证e互动"
  }
 ]
