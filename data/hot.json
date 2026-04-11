@@ -6,6 +6,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "000932",
+  "stock_name": "华菱钢铁",
+  "qa_count": 31,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600166",
   "stock_name": "600166",
   "qa_count": 30,
@@ -16,12 +22,6 @@
   "stock_name": "600246",
   "qa_count": 30,
   "source": "上证e互动"
- },
- {
-  "stock_code": "000932",
-  "stock_name": "华菱钢铁",
-  "qa_count": 27,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "301308",
