@@ -18,6 +18,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "000932",
+  "stock_name": "华菱钢铁",
+  "qa_count": 27,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "301308",
   "stock_name": "江波龙",
   "qa_count": 26,
@@ -40,6 +46,12 @@
   "stock_name": "宏明电子",
   "qa_count": 25,
   "source": "深交所互动易"
+ },
+ {
+  "stock_code": "688621",
+  "stock_name": "688621",
+  "qa_count": 24,
+  "source": "上证e互动"
  },
  {
   "stock_code": "300558",
@@ -104,18 +116,6 @@
  {
   "stock_code": "601137",
   "stock_name": "601137",
-  "qa_count": 20,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "603613",
-  "stock_name": "603613",
-  "qa_count": 20,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600850",
-  "stock_name": "600850",
   "qa_count": 20,
   "source": "上证e互动"
  }
