@@ -96,27 +96,27 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "300146",
+  "stock_name": "汤臣倍健",
+  "qa_count": 24,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "300558",
   "stock_name": "贝达药业",
   "qa_count": 24,
   "source": "深交所互动易"
  },
  {
-  "stock_code": "002129",
-  "stock_name": "TCL中环",
+  "stock_code": "300857",
+  "stock_name": "协创数据",
   "qa_count": 23,
   "source": "深交所互动易"
  },
  {
-  "stock_code": "600037",
-  "stock_name": "600037",
-  "qa_count": 22,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "300146",
-  "stock_name": "汤臣倍健",
-  "qa_count": 22,
+  "stock_code": "002129",
+  "stock_name": "TCL中环",
+  "qa_count": 23,
   "source": "深交所互动易"
  }
 ]
