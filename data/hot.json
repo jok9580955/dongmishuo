@@ -24,6 +24,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "002705",
+  "stock_name": "新宝股份",
+  "qa_count": 33,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "688525",
   "stock_name": "688525",
   "qa_count": 32,
@@ -88,12 +94,6 @@
   "stock_name": "688621",
   "qa_count": 24,
   "source": "上证e互动"
- },
- {
-  "stock_code": "002705",
-  "stock_name": "新宝股份",
-  "qa_count": 24,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "300558",
