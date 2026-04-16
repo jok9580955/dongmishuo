@@ -60,8 +60,20 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "301682",
+  "stock_name": "宏明电子",
+  "qa_count": 30,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600703",
   "stock_name": "600703",
+  "qa_count": 29,
+  "source": "上证e互动"
+ },
+ {
+  "stock_code": "600719",
+  "stock_name": "600719",
   "qa_count": 29,
   "source": "上证e互动"
  },
@@ -78,22 +90,10 @@
   "source": "上证e互动"
  },
  {
-  "stock_code": "600719",
-  "stock_name": "600719",
-  "qa_count": 25,
-  "source": "上证e互动"
- },
- {
   "stock_code": "600138",
   "stock_name": "600138",
   "qa_count": 25,
   "source": "上证e互动"
- },
- {
-  "stock_code": "301682",
-  "stock_name": "宏明电子",
-  "qa_count": 25,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "600720",
