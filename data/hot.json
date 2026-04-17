@@ -6,6 +6,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "000932",
+  "stock_name": "华菱钢铁",
+  "qa_count": 44,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "002281",
   "stock_name": "光迅科技",
   "qa_count": 42,
@@ -42,9 +48,9 @@
   "source": "上证e互动"
  },
  {
-  "stock_code": "000932",
-  "stock_name": "华菱钢铁",
-  "qa_count": 31,
+  "stock_code": "002129",
+  "stock_name": "TCL中环",
+  "qa_count": 32,
   "source": "深交所互动易"
  },
  {
@@ -112,11 +118,5 @@
   "stock_name": "688621",
   "qa_count": 24,
   "source": "上证e互动"
- },
- {
-  "stock_code": "000938",
-  "stock_name": "紫光股份",
-  "qa_count": 24,
-  "source": "深交所互动易"
  }
 ]
