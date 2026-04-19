@@ -96,6 +96,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "688509",
+  "stock_name": "688509",
+  "qa_count": 29,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "600719",
   "stock_name": "600719",
   "qa_count": 29,
@@ -110,12 +116,6 @@
  {
   "stock_code": "601568",
   "stock_name": "601568",
-  "qa_count": 28,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "601006",
-  "stock_name": "601006",
   "qa_count": 28,
   "source": "上证e互动"
  }
