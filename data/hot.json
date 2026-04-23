@@ -78,6 +78,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "603789",
+  "stock_name": "603789",
+  "qa_count": 31,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "601127",
   "stock_name": "601127",
   "qa_count": 31,
@@ -111,12 +117,6 @@
   "stock_code": "600246",
   "stock_name": "600246",
   "qa_count": 30,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600703",
-  "stock_name": "600703",
-  "qa_count": 29,
   "source": "上证e互动"
  }
 ]
