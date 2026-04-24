@@ -66,6 +66,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "000661",
+  "stock_name": "长春高新",
+  "qa_count": 33,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "002065",
   "stock_name": "东华软件",
   "qa_count": 33,
@@ -110,12 +116,6 @@
  {
   "stock_code": "600166",
   "stock_name": "600166",
-  "qa_count": 30,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600246",
-  "stock_name": "600246",
   "qa_count": 30,
   "source": "上证e互动"
  }
