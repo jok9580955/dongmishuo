@@ -84,6 +84,18 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "600719",
+  "stock_name": "600719",
+  "qa_count": 32,
+  "source": "上证e互动"
+ },
+ {
+  "stock_code": "300857",
+  "stock_name": "协创数据",
+  "qa_count": 32,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "603789",
   "stock_name": "603789",
   "qa_count": 31,
@@ -96,12 +108,6 @@
   "source": "上证e互动"
  },
  {
-  "stock_code": "300857",
-  "stock_name": "协创数据",
-  "qa_count": 31,
-  "source": "深交所互动易"
- },
- {
   "stock_code": "601121",
   "stock_name": "601121",
   "qa_count": 30,
@@ -110,12 +116,6 @@
  {
   "stock_code": "600179",
   "stock_name": "600179",
-  "qa_count": 30,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600166",
-  "stock_name": "600166",
   "qa_count": 30,
   "source": "上证e互动"
  }
