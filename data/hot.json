@@ -36,6 +36,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "002129",
+  "stock_name": "TCL中环",
+  "qa_count": 37,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "002705",
   "stock_name": "新宝股份",
   "qa_count": 36,
@@ -74,12 +80,6 @@
  {
   "stock_code": "002065",
   "stock_name": "东华软件",
-  "qa_count": 33,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "002129",
-  "stock_name": "TCL中环",
   "qa_count": 33,
   "source": "深交所互动易"
  },
