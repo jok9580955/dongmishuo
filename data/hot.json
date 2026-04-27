@@ -18,6 +18,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "000725",
+  "stock_name": "京东方Ａ",
+  "qa_count": 42,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "002281",
   "stock_name": "光迅科技",
   "qa_count": 42,
@@ -112,11 +118,5 @@
   "stock_name": "协创数据",
   "qa_count": 32,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "601568",
-  "stock_name": "601568",
-  "qa_count": 31,
-  "source": "上证e互动"
  }
 ]
