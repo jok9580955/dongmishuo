@@ -30,6 +30,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "688509",
+  "stock_name": "688509",
+  "qa_count": 43,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "000725",
   "stock_name": "京东方Ａ",
   "qa_count": 42,
@@ -58,12 +64,6 @@
   "stock_name": "TCL中环",
   "qa_count": 38,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "688509",
-  "stock_name": "688509",
-  "qa_count": 36,
-  "source": "上证e互动"
  },
  {
   "stock_code": "300223",
