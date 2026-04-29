@@ -8,7 +8,7 @@
  {
   "stock_code": "301308",
   "stock_name": "江波龙",
-  "qa_count": 50,
+  "qa_count": 51,
   "source": "深交所互动易"
  },
  {
@@ -42,6 +42,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "301682",
+  "stock_name": "宏明电子",
+  "qa_count": 38,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "002129",
   "stock_name": "TCL中环",
   "qa_count": 38,
@@ -62,12 +68,6 @@
  {
   "stock_code": "300223",
   "stock_name": "北京君正",
-  "qa_count": 36,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "301682",
-  "stock_name": "宏明电子",
   "qa_count": 36,
   "source": "深交所互动易"
  },
