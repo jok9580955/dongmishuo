@@ -60,6 +60,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "600563",
+  "stock_name": "600563",
+  "qa_count": 38,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "688621",
   "stock_name": "688621",
   "qa_count": 38,
@@ -112,11 +118,5 @@
   "stock_name": "四川美丰",
   "qa_count": 34,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600449",
-  "stock_name": "600449",
-  "qa_count": 33,
-  "source": "上证e互动"
  }
 ]
