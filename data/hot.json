@@ -84,6 +84,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "600089",
+  "stock_name": "600089",
+  "qa_count": 38,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "301682",
   "stock_name": "宏明电子",
   "qa_count": 38,
@@ -111,12 +117,6 @@
   "stock_code": "002705",
   "stock_name": "新宝股份",
   "qa_count": 36,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "300857",
-  "stock_name": "协创数据",
-  "qa_count": 35,
   "source": "深交所互动易"
  }
 ]
