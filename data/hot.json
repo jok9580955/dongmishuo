@@ -102,6 +102,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "603005",
+  "stock_name": "603005",
+  "qa_count": 39,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "300857",
   "stock_name": "协创数据",
   "qa_count": 39,
@@ -112,11 +118,5 @@
   "stock_name": "汤臣倍健",
   "qa_count": 39,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600563",
-  "stock_name": "600563",
-  "qa_count": 38,
-  "source": "上证e互动"
  }
 ]
