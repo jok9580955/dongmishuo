@@ -90,6 +90,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "000938",
+  "stock_name": "紫光股份",
+  "qa_count": 44,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "000625",
   "stock_name": "长安汽车",
   "qa_count": 44,
@@ -112,11 +118,5 @@
   "stock_name": "宏明电子",
   "qa_count": 43,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600449",
-  "stock_name": "600449",
-  "qa_count": 42,
-  "source": "上证e互动"
  }
 ]
