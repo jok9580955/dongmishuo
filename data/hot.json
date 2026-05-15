@@ -84,6 +84,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "601579",
+  "stock_name": "601579",
+  "qa_count": 45,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "600246",
   "stock_name": "600246",
   "qa_count": 45,
@@ -112,11 +118,5 @@
   "stock_name": "688509",
   "qa_count": 43,
   "source": "上证e互动"
- },
- {
-  "stock_code": "301682",
-  "stock_name": "宏明电子",
-  "qa_count": 43,
-  "source": "深交所互动易"
  }
 ]
