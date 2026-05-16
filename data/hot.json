@@ -96,6 +96,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "600348",
+  "stock_name": "600348",
+  "qa_count": 45,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "600246",
   "stock_name": "600246",
   "qa_count": 45,
@@ -110,12 +116,6 @@
  {
   "stock_code": "000625",
   "stock_name": "长安汽车",
-  "qa_count": 44,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "000725",
-  "stock_name": "京东方Ａ",
   "qa_count": 44,
   "source": "深交所互动易"
  }
