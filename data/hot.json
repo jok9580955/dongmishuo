@@ -30,6 +30,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "002065",
+  "stock_name": "东华软件",
+  "qa_count": 59,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "688525",
   "stock_name": "688525",
   "qa_count": 57,
@@ -110,12 +116,6 @@
  {
   "stock_code": "601579",
   "stock_name": "601579",
-  "qa_count": 45,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600348",
-  "stock_name": "600348",
   "qa_count": 45,
   "source": "上证e互动"
  }
