@@ -18,16 +18,16 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "000731",
+  "stock_name": "四川美丰",
+  "qa_count": 73,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600771",
   "stock_name": "600771",
   "qa_count": 69,
   "source": "上证e互动"
- },
- {
-  "stock_code": "000731",
-  "stock_name": "四川美丰",
-  "qa_count": 69,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "688525",
@@ -90,16 +90,16 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "300857",
+  "stock_name": "协创数据",
+  "qa_count": 52,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600246",
   "stock_name": "600246",
   "qa_count": 51,
   "source": "上证e互动"
- },
- {
-  "stock_code": "300857",
-  "stock_name": "协创数据",
-  "qa_count": 51,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "600416",
