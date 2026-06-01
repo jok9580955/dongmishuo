@@ -2,7 +2,7 @@
  {
   "stock_code": "000932",
   "stock_name": "华菱钢铁",
-  "qa_count": 147,
+  "qa_count": 152,
   "source": "深交所互动易"
  },
  {
@@ -60,6 +60,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "300857",
+  "stock_name": "协创数据",
+  "qa_count": 60,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "000938",
   "stock_name": "紫光股份",
   "qa_count": 59,
@@ -82,12 +88,6 @@
   "stock_name": "601579",
   "qa_count": 55,
   "source": "上证e互动"
- },
- {
-  "stock_code": "300857",
-  "stock_name": "协创数据",
-  "qa_count": 55,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "300223",
