@@ -78,6 +78,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "601579",
+  "stock_name": "601579",
+  "qa_count": 55,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "300857",
   "stock_name": "协创数据",
   "qa_count": 55,
@@ -110,12 +116,6 @@
  {
   "stock_code": "600650",
   "stock_name": "600650",
-  "qa_count": 51,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "603456",
-  "stock_name": "603456",
   "qa_count": 51,
   "source": "上证e互动"
  }
