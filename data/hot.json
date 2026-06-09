@@ -60,6 +60,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "002179",
+  "stock_name": "中航光电",
+  "qa_count": 62,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600246",
   "stock_name": "600246",
   "qa_count": 61,
@@ -110,12 +116,6 @@
  {
   "stock_code": "300999",
   "stock_name": "金龙鱼",
-  "qa_count": 54,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "000661",
-  "stock_name": "长春高新",
   "qa_count": 54,
   "source": "深交所互动易"
  }
