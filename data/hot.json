@@ -2,7 +2,7 @@
  {
   "stock_code": "000932",
   "stock_name": "华菱钢铁",
-  "qa_count": 152,
+  "qa_count": 171,
   "source": "深交所互动易"
  },
  {
@@ -54,9 +54,15 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "000625",
+  "stock_name": "长安汽车",
+  "qa_count": 65,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "301308",
   "stock_name": "江波龙",
-  "qa_count": 63,
+  "qa_count": 64,
   "source": "深交所互动易"
  },
  {
@@ -110,12 +116,6 @@
  {
   "stock_code": "601579",
   "stock_name": "601579",
-  "qa_count": 55,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600089",
-  "stock_name": "600089",
   "qa_count": 55,
   "source": "上证e互动"
  }
