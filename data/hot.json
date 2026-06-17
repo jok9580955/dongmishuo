@@ -18,15 +18,15 @@
   "source": "上证e互动"
  },
  {
-  "stock_code": "002065",
-  "stock_name": "东华软件",
+  "stock_code": "300857",
+  "stock_name": "协创数据",
   "qa_count": 85,
   "source": "深交所互动易"
  },
  {
-  "stock_code": "300857",
-  "stock_name": "协创数据",
-  "qa_count": 84,
+  "stock_code": "002065",
+  "stock_name": "东华软件",
+  "qa_count": 85,
   "source": "深交所互动易"
  },
  {
@@ -96,16 +96,16 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "300999",
+  "stock_name": "金龙鱼",
+  "qa_count": 62,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600246",
   "stock_name": "600246",
   "qa_count": 61,
   "source": "上证e互动"
- },
- {
-  "stock_code": "300999",
-  "stock_name": "金龙鱼",
-  "qa_count": 61,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "600416",
