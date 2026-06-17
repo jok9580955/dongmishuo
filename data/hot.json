@@ -26,7 +26,7 @@
  {
   "stock_code": "300857",
   "stock_name": "协创数据",
-  "qa_count": 82,
+  "qa_count": 84,
   "source": "深交所互动易"
  },
  {
@@ -54,6 +54,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "301308",
+  "stock_name": "江波龙",
+  "qa_count": 67,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600720",
   "stock_name": "600720",
   "qa_count": 65,
@@ -76,12 +82,6 @@
   "stock_name": "601121",
   "qa_count": 64,
   "source": "上证e互动"
- },
- {
-  "stock_code": "301308",
-  "stock_name": "江波龙",
-  "qa_count": 64,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "000938",
