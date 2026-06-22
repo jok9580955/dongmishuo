@@ -50,8 +50,14 @@
  {
   "stock_code": "002179",
   "stock_name": "中航光电",
-  "qa_count": 73,
+  "qa_count": 76,
   "source": "深交所互动易"
+ },
+ {
+  "stock_code": "600720",
+  "stock_name": "600720",
+  "qa_count": 75,
+  "source": "上证e互动"
  },
  {
   "stock_code": "600246",
@@ -76,12 +82,6 @@
   "stock_name": "江波龙",
   "qa_count": 67,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600720",
-  "stock_name": "600720",
-  "qa_count": 65,
-  "source": "上证e互动"
  },
  {
   "stock_code": "601127",
