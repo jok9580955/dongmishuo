@@ -24,6 +24,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "002179",
+  "stock_name": "中航光电",
+  "qa_count": 86,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "300857",
   "stock_name": "协创数据",
   "qa_count": 86,
@@ -46,12 +52,6 @@
   "stock_name": "600905",
   "qa_count": 78,
   "source": "上证e互动"
- },
- {
-  "stock_code": "002179",
-  "stock_name": "中航光电",
-  "qa_count": 76,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "600720",
