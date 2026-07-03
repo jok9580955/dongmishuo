@@ -48,6 +48,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "000938",
+  "stock_name": "紫光股份",
+  "qa_count": 80,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600905",
   "stock_name": "600905",
   "qa_count": 78,
@@ -112,11 +118,5 @@
   "stock_name": "北京君正",
   "qa_count": 66,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "601127",
-  "stock_name": "601127",
-  "qa_count": 65,
-  "source": "上证e互动"
  }
 ]
