@@ -48,6 +48,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "600089",
+  "stock_name": "600089",
+  "qa_count": 84,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "000731",
   "stock_name": "四川美丰",
   "qa_count": 81,
@@ -81,12 +87,6 @@
   "stock_code": "601127",
   "stock_name": "601127",
   "qa_count": 75,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600089",
-  "stock_name": "600089",
-  "qa_count": 74,
   "source": "上证e互动"
  },
  {
