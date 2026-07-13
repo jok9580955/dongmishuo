@@ -108,15 +108,15 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "603005",
+  "stock_name": "603005",
+  "qa_count": 74,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "600420",
   "stock_name": "600420",
   "qa_count": 73,
   "source": "上证e互动"
- },
- {
-  "stock_code": "300223",
-  "stock_name": "北京君正",
-  "qa_count": 73,
-  "source": "深交所互动易"
  }
 ]
