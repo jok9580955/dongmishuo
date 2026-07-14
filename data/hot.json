@@ -12,6 +12,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "002179",
+  "stock_name": "中航光电",
+  "qa_count": 115,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600771",
   "stock_name": "600771",
   "qa_count": 114,
@@ -24,12 +30,6 @@
   "source": "深交所互动易"
  },
  {
-  "stock_code": "002179",
-  "stock_name": "中航光电",
-  "qa_count": 105,
-  "source": "深交所互动易"
- },
- {
   "stock_code": "300857",
   "stock_name": "协创数据",
   "qa_count": 96,
@@ -39,6 +39,12 @@
   "stock_code": "002065",
   "stock_name": "东华软件",
   "qa_count": 91,
+  "source": "深交所互动易"
+ },
+ {
+  "stock_code": "300223",
+  "stock_name": "北京君正",
+  "qa_count": 90,
   "source": "深交所互动易"
  },
  {
@@ -111,12 +117,6 @@
   "stock_code": "601127",
   "stock_name": "601127",
   "qa_count": 75,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "603005",
-  "stock_name": "603005",
-  "qa_count": 74,
   "source": "上证e互动"
  }
 ]
