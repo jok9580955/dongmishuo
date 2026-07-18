@@ -66,6 +66,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "688525",
+  "stock_name": "688525",
+  "qa_count": 87,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "000938",
   "stock_name": "紫光股份",
   "qa_count": 85,
@@ -111,12 +117,6 @@
   "stock_code": "600905",
   "stock_name": "600905",
   "qa_count": 78,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "601800",
-  "stock_name": "601800",
-  "qa_count": 77,
   "source": "上证e互动"
  }
 ]
