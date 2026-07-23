@@ -78,6 +78,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "600449",
+  "stock_name": "600449",
+  "qa_count": 86,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "601127",
   "stock_name": "601127",
   "qa_count": 85,
@@ -100,12 +106,6 @@
   "stock_name": "江波龙",
   "qa_count": 83,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600449",
-  "stock_name": "600449",
-  "qa_count": 82,
-  "source": "上证e互动"
  },
  {
   "stock_code": "600650",
