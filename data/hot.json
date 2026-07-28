@@ -6,16 +6,16 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "600771",
+  "stock_name": "600771",
+  "qa_count": 130,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "002179",
   "stock_name": "中航光电",
   "qa_count": 126,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600771",
-  "stock_name": "600771",
-  "qa_count": 121,
-  "source": "上证e互动"
  },
  {
   "stock_code": "300223",
@@ -30,6 +30,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "600089",
+  "stock_name": "600089",
+  "qa_count": 114,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "300857",
   "stock_name": "协创数据",
   "qa_count": 112,
@@ -40,12 +46,6 @@
   "stock_name": "中际旭创",
   "qa_count": 108,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600089",
-  "stock_name": "600089",
-  "qa_count": 104,
-  "source": "上证e互动"
  },
  {
   "stock_code": "000731",
@@ -84,6 +84,18 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "300956",
+  "stock_name": "英力股份",
+  "qa_count": 89,
+  "source": "深交所互动易"
+ },
+ {
+  "stock_code": "301308",
+  "stock_name": "江波龙",
+  "qa_count": 89,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600720",
   "stock_name": "600720",
   "qa_count": 88,
@@ -106,17 +118,5 @@
   "stock_name": "601127",
   "qa_count": 85,
   "source": "上证e互动"
- },
- {
-  "stock_code": "300956",
-  "stock_name": "英力股份",
-  "qa_count": 85,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "301308",
-  "stock_name": "江波龙",
-  "qa_count": 85,
-  "source": "深交所互动易"
  }
 ]
