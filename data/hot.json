@@ -20,7 +20,7 @@
  {
   "stock_code": "300223",
   "stock_name": "北京君正",
-  "qa_count": 124,
+  "qa_count": 125,
   "source": "深交所互动易"
  },
  {
@@ -78,6 +78,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "300956",
+  "stock_name": "英力股份",
+  "qa_count": 91,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600416",
   "stock_name": "600416",
   "qa_count": 90,
@@ -94,12 +100,6 @@
   "stock_name": "600449",
   "qa_count": 89,
   "source": "上证e互动"
- },
- {
-  "stock_code": "300956",
-  "stock_name": "英力股份",
-  "qa_count": 89,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "301308",
