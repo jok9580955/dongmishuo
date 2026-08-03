@@ -20,7 +20,7 @@
  {
   "stock_code": "300857",
   "stock_name": "协创数据",
-  "qa_count": 127,
+  "qa_count": 128,
   "source": "深交所互动易"
  },
  {
@@ -90,6 +90,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "301308",
+  "stock_name": "江波龙",
+  "qa_count": 91,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "300956",
   "stock_name": "英力股份",
   "qa_count": 91,
@@ -104,12 +110,6 @@
  {
   "stock_code": "000938",
   "stock_name": "紫光股份",
-  "qa_count": 90,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "301308",
-  "stock_name": "江波龙",
   "qa_count": 90,
   "source": "深交所互动易"
  },
