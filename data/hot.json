@@ -60,6 +60,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "300956",
+  "stock_name": "英力股份",
+  "qa_count": 94,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "002065",
   "stock_name": "东华软件",
   "qa_count": 94,
@@ -98,12 +104,6 @@
  {
   "stock_code": "301308",
   "stock_name": "江波龙",
-  "qa_count": 91,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "300956",
-  "stock_name": "英力股份",
   "qa_count": 91,
   "source": "深交所互动易"
  },
