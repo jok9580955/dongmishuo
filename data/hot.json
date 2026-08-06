@@ -26,7 +26,7 @@
  {
   "stock_code": "300857",
   "stock_name": "协创数据",
-  "qa_count": 131,
+  "qa_count": 132,
   "source": "深交所互动易"
  },
  {
@@ -60,15 +60,15 @@
   "source": "深交所互动易"
  },
  {
-  "stock_code": "000731",
-  "stock_name": "四川美丰",
+  "stock_code": "300956",
+  "stock_name": "英力股份",
   "qa_count": 95,
   "source": "深交所互动易"
  },
  {
-  "stock_code": "300956",
-  "stock_name": "英力股份",
-  "qa_count": 94,
+  "stock_code": "000731",
+  "stock_name": "四川美丰",
+  "qa_count": 95,
   "source": "深交所互动易"
  },
  {
@@ -76,6 +76,12 @@
   "stock_name": "600420",
   "qa_count": 93,
   "source": "上证e互动"
+ },
+ {
+  "stock_code": "301308",
+  "stock_name": "江波龙",
+  "qa_count": 93,
+  "source": "深交所互动易"
  },
  {
   "stock_code": "000625",
@@ -100,12 +106,6 @@
   "stock_name": "601127",
   "qa_count": 91,
   "source": "上证e互动"
- },
- {
-  "stock_code": "301308",
-  "stock_name": "江波龙",
-  "qa_count": 91,
-  "source": "深交所互动易"
  },
  {
   "stock_code": "600416",
