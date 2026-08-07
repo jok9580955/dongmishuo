@@ -60,6 +60,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "688525",
+  "stock_name": "688525",
+  "qa_count": 99,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "000625",
   "stock_name": "长安汽车",
   "qa_count": 97,
@@ -94,12 +100,6 @@
   "stock_name": "江波龙",
   "qa_count": 93,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "688525",
-  "stock_name": "688525",
-  "qa_count": 92,
-  "source": "上证e互动"
  },
  {
   "stock_code": "601121",
