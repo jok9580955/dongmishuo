@@ -48,6 +48,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "000988",
+  "stock_name": "华工科技",
+  "qa_count": 106,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600449",
   "stock_name": "600449",
   "qa_count": 103,
@@ -112,11 +118,5 @@
   "stock_name": "京东方Ａ",
   "qa_count": 91,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600416",
-  "stock_name": "600416",
-  "qa_count": 90,
-  "source": "上证e互动"
  }
 ]
