@@ -8,7 +8,7 @@
  {
   "stock_code": "002179",
   "stock_name": "中航光电",
-  "qa_count": 140,
+  "qa_count": 141,
   "source": "深交所互动易"
  },
  {
@@ -78,6 +78,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "601800",
+  "stock_name": "601800",
+  "qa_count": 95,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "300956",
   "stock_name": "英力股份",
   "qa_count": 95,
@@ -110,12 +116,6 @@
  {
   "stock_code": "601121",
   "stock_name": "601121",
-  "qa_count": 91,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "601127",
-  "stock_name": "601127",
   "qa_count": 91,
   "source": "上证e互动"
  }
