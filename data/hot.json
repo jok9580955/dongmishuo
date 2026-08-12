@@ -78,6 +78,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "301308",
+  "stock_name": "江波龙",
+  "qa_count": 97,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "000625",
   "stock_name": "长安汽车",
   "qa_count": 97,
@@ -99,12 +105,6 @@
   "stock_code": "300956",
   "stock_name": "英力股份",
   "qa_count": 96,
-  "source": "深交所互动易"
- },
- {
-  "stock_code": "301308",
-  "stock_name": "江波龙",
-  "qa_count": 93,
   "source": "深交所互动易"
  },
  {
