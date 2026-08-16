@@ -48,16 +48,16 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "600449",
+  "stock_name": "600449",
+  "qa_count": 113,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "300308",
   "stock_name": "中际旭创",
   "qa_count": 108,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600449",
-  "stock_name": "600449",
-  "qa_count": 103,
-  "source": "上证e互动"
  },
  {
   "stock_code": "600420",
