@@ -66,6 +66,12 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "000725",
+  "stock_name": "京东方Ａ",
+  "qa_count": 106,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "600420",
   "stock_name": "600420",
   "qa_count": 103,
@@ -112,11 +118,5 @@
   "stock_name": "东华软件",
   "qa_count": 97,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "601800",
-  "stock_name": "601800",
-  "qa_count": 96,
-  "source": "上证e互动"
  }
 ]
