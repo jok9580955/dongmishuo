@@ -108,15 +108,15 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "300999",
+  "stock_name": "金龙鱼",
+  "qa_count": 103,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "688525",
   "stock_name": "688525",
   "qa_count": 101,
-  "source": "上证e互动"
- },
- {
-  "stock_code": "600416",
-  "stock_name": "600416",
-  "qa_count": 100,
   "source": "上证e互动"
  }
 ]
