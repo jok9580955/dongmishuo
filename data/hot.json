@@ -12,16 +12,16 @@
   "source": "深交所互动易"
  },
  {
+  "stock_code": "600771",
+  "stock_name": "600771",
+  "qa_count": 146,
+  "source": "上证e互动"
+ },
+ {
   "stock_code": "300223",
   "stock_name": "北京君正",
   "qa_count": 145,
   "source": "深交所互动易"
- },
- {
-  "stock_code": "600771",
-  "stock_name": "600771",
-  "qa_count": 144,
-  "source": "上证e互动"
  },
  {
   "stock_code": "002230",
