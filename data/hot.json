@@ -72,15 +72,15 @@
   "source": "上证e互动"
  },
  {
-  "stock_code": "000725",
-  "stock_name": "京东方Ａ",
+  "stock_code": "000625",
+  "stock_name": "长安汽车",
   "qa_count": 121,
   "source": "深交所互动易"
  },
  {
-  "stock_code": "000625",
-  "stock_name": "长安汽车",
-  "qa_count": 119,
+  "stock_code": "000725",
+  "stock_name": "京东方Ａ",
+  "qa_count": 121,
   "source": "深交所互动易"
  },
  {
