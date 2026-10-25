@@ -1848,6 +1848,17 @@
   "url": "http://sns.sseinfo.com/company.do?uid=375"
  },
  {
+  "id": "item-1797746",
+  "stock_code": "600955",
+  "stock_name": "600955",
+  "question": ":维远股份(600955)请问贵公司截止26年10月20日的最新股东数为多少？",
+  "answer": "您好，截至2026年10月20日，公司股东数为33,520户。谢谢！",
+  "pub_date": "2026年10月21日",
+  "reply_date": "2026年10月21日",
+  "source": "上证e互动",
+  "url": "http://sns.sseinfo.com/company.do?uid=223582"
+ },
+ {
   "id": "item-1797586",
   "stock_code": "601918",
   "stock_name": "601918",
@@ -4378,6 +4389,28 @@
   "url": "http://sns.sseinfo.com/company.do?uid=39993"
  },
  {
+  "id": "item-1794967",
+  "stock_code": "600658",
+  "stock_name": "600658",
+  "question": ":电子城(600658)请问贵公司截止10月10日最新股东数？",
+  "answer": "投资者您好，截至2026年10月9日，公司股东户数34,374户，感谢您的关注。",
+  "pub_date": "2026年10月12日",
+  "reply_date": "2026年10月12日",
+  "source": "上证e互动",
+  "url": "http://sns.sseinfo.com/company.do?uid=658"
+ },
+ {
+  "id": "item-1795211",
+  "stock_code": "603127",
+  "stock_name": "603127",
+  "question": ":昭衍新药(603127)董秘好，能发布一下最近的股东人数吗？",
+  "answer": "您好！ 请将个人持股证明等文件发送到公司联系邮箱，或者致电010-67869582，公司核实后进行回复，谢谢。",
+  "pub_date": "2026年10月12日",
+  "reply_date": "2026年10月12日",
+  "source": "上证e互动",
+  "url": "http://sns.sseinfo.com/company.do?uid=101971"
+ },
+ {
   "id": "item-1794599",
   "stock_code": "601065",
   "stock_name": "601065",
@@ -6116,6 +6149,17 @@
   "url": "http://sns.sseinfo.com/company.do?uid=323102"
  },
  {
+  "id": "item-1793991",
+  "stock_code": "688663",
+  "stock_name": "688663",
+  "question": ":新风光(688663)您好！请问截至9月30日公司股东人数是多少，谢谢",
+  "answer": "投资者您好！截至2026年9月30日，公司股东人数为7,002。感谢您的关注！",
+  "pub_date": "2026年10月08日",
+  "reply_date": "2026年10月20日",
+  "source": "上证e互动",
+  "url": "http://sns.sseinfo.com/company.do?uid=199813"
+ },
+ {
   "id": "item-1793334",
   "stock_code": "688765",
   "stock_name": "688765",
@@ -6873,6 +6917,17 @@
   "reply_date": "2026年10月12日",
   "source": "上证e互动",
   "url": "http://sns.sseinfo.com/company.do?uid=39993"
+ },
+ {
+  "id": "item-1793444",
+  "stock_code": "603908",
+  "stock_name": "603908",
+  "question": ":牧高笛(603908)公司经营没有问题，有品牌有内容，公司有没有回购计划？",
+  "answer": "尊敬的投资者，您好！公司目前暂无回购计划。公司后续如有相关计划，将严格按照相关法律法规及规范性文件履行信息披露义务。感谢您的关注与建议！",
+  "pub_date": "2026年09月30日",
+  "reply_date": "2026年10月08日",
+  "source": "上证e互动",
+  "url": "http://sns.sseinfo.com/company.do?uid=86056"
  },
  {
   "id": "item-1793187",
@@ -8327,6 +8382,17 @@
   "url": "http://sns.sseinfo.com/company.do?uid=68139"
  },
  {
+  "id": "item-1792792",
+  "stock_code": "688108",
+  "stock_name": "688108",
+  "question": ":赛诺医疗(688108)赛诺医疗(688108)公司 H股上市问询函啥时候回复，材料现在补充整理到什么情况了？请明确答复提问者",
+  "answer": "尊敬的投资者，您好！公司根据相关法律法规及规章制度的要求，按时回复相关问题。感谢您对公司的关注，请您注意投资风险，谨慎投资。",
+  "pub_date": "2026年09月28日",
+  "reply_date": "2026年10月08日",
+  "source": "上证e互动",
+  "url": "http://sns.sseinfo.com/company.do?uid=150882"
+ },
+ {
   "id": "item-1792429",
   "stock_code": "600328",
   "stock_name": "600328",
@@ -9029,6 +9095,17 @@
   "reply_date": "2026年09月28日",
   "source": "上证e互动",
   "url": "http://sns.sseinfo.com/company.do?uid=423"
+ },
+ {
+  "id": "item-1792235",
+  "stock_code": "688456",
+  "stock_name": "688456",
+  "question": ":有研粉材(688456)您好，请问贵司的纳米铜粉在PCB，功率芯片等方面的应用目前如何？用于MLCC的纳米镍粉，有无通过客户验证而进入了小批量或者批量交付呢？镍粉粒径除了80nm，有没有研发更低的比如50nm？谢谢。",
+  "answer": "尊敬的投资者您好，感谢您的关注！公司纳米铜粉处于样品验证阶段。用于MLCC的纳米镍粉正在进行下一步的器件验证环节。实验室级别已开发出更小尺寸的纳米镍粉。感谢您的提问！",
+  "pub_date": "2026年09月24日",
+  "reply_date": "2026年10月12日",
+  "source": "上证e互动",
+  "url": "http://sns.sseinfo.com/company.do?uid=196865"
  },
  {
   "id": "item-1792011",
