@@ -8,7 +8,7 @@
  {
   "stock_code": "300857",
   "stock_name": "协创数据",
-  "qa_count": 209,
+  "qa_count": 211,
   "source": "深交所互动易"
  },
  {
@@ -72,6 +72,12 @@
   "source": "上证e互动"
  },
  {
+  "stock_code": "300975",
+  "stock_name": "商络电子",
+  "qa_count": 138,
+  "source": "深交所互动易"
+ },
+ {
   "stock_code": "000713",
   "stock_name": "国投丰乐",
   "qa_count": 138,
@@ -84,15 +90,9 @@
   "source": "上证e互动"
  },
  {
-  "stock_code": "300975",
-  "stock_name": "商络电子",
-  "qa_count": 137,
-  "source": "深交所互动易"
- },
- {
   "stock_code": "000725",
   "stock_name": "京东方Ａ",
-  "qa_count": 135,
+  "qa_count": 136,
   "source": "深交所互动易"
  },
  {
